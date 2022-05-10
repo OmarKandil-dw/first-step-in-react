@@ -2,9 +2,9 @@ import React from "react";
 function User(props){
 return (
     <React.Fragment>
+    <p>{props.id}</p>
     <h1>{props.nom}.{props.prenom}</h1>
-    <img>{props.img}</img>
-    <p>{props.description}</p>
+    <h2>{props.adresse}</h2>
     
     </React.Fragment>
     );
